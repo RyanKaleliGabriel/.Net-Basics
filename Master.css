@@ -1,0 +1,48 @@
+﻿body {
+    background-color: darkgreen;
+    color: gold;
+}
+
+#navbar {
+    background-color: black;
+    color: gold;
+    height: 40px;
+    border: 1px solid black;
+    text-align: center;
+    width: 100%
+}
+
+#footer {
+    background-color: darkgreen;
+    color: gold;
+    text-align: center;
+    width: 100%;
+    border: 1px solid black;
+}
+
+#header {
+    background-color: darkgreen;
+    color: gold;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+}
+.container{
+    display:flex;
+}
+.container-wrapper{
+    display:flex;
+    justify-content:center;
+    align-content: center;
+    flex-direction:column;
+}
+.image{
+    
+    width: 500px;
+    border: 100px;
+    margin-left: 400px;
+}
+.btn{
+    margin-left: 400px;
+}

@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Class.master.cs" Inherits="ClassProject1.Class" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Master.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="header">
+            Header
+        </div>
+        <div id="navBar">
+        <asp:HyperLink ID="HyperLink1" runat="server">Home</asp:HyperLink>
+        <asp:HyperLink ID="HyperLink2" runat="server">About Us</asp:HyperLink>
+        <asp:HyperLink ID="HyperLink3" runat="server">Register</asp:HyperLink>
+        <asp:HyperLink ID="HyperLink4" runat="server">Contact</asp:HyperLink>
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <p>Main Page</p>
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="footer">
+            &copy; All rights reserved 2023
+        </div>
+    </form>
+</body>
+</html>
